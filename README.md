@@ -23,7 +23,7 @@ Make sure you have the following installed:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/Triple-V8/tgbotapi.git
    cd your-repository
 2. **Install dependencies:**
    ```bash
@@ -38,7 +38,7 @@ Make sure you have the following installed:
    npm start
 5. **To send a telegram message:**
    ```bash
-   http://localhost:3000/api/send-message?chatId=<CHAT_ID>&message=<YOUR_MESSAGE>
+   http://localhost:3000/users/send-message?chatId=<CHAT_ID>&message=<YOUR_MESSAGE>
    ```
    Replace <CHAT_ID> with the ID of the chat or user you want to send the message to.
    Replace <YOUR_MESSAGE> with the text message you want to send.
