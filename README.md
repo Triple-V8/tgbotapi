@@ -26,14 +26,19 @@ Make sure you have the following installed:
    git clone https://github.com/your-username/your-repository.git
    cd your-repository
 2. **Install dependencies:**
+   ```bash
    npm install
 3. **Set up the .env file:**
    In the root of your project, create a .env file and add your Telegram bot token:
+   ```bash
    TELEGRAM_BOT_TOKEN=your-bot-token
 4. **Start the server:**
    Run the following command to start the Express server:
+   ```bash
    npm start
 5. **To send a telegram message:**
+   ```bash
    http://localhost:3000/api/send-message?chatId=<CHAT_ID>&message=<YOUR_MESSAGE>
+
    Replace <CHAT_ID> with the ID of the chat or user you want to send the message to.
    Replace <YOUR_MESSAGE> with the text message you want to send.
